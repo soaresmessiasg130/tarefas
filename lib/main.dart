@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
         leading: Icon(
           Icons.widgets,
         ),
-        title: Text("Tarefas"),
+        title: Text("Tarefas - Controle seu tempo"),
         actions: <Widget>[
           Container(
             child: Container(
@@ -56,7 +56,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.green,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(
+        title: 'Flutter Demo Home Page',
+      ),
     );
   }
 }
